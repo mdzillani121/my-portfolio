@@ -11,28 +11,167 @@
 <body>
 <div class="grid"></div>
 <header class="nav">
-<div class="logo">md zillani&lt;/&gt;</div>
-<nav>
-<a href="#">Home</a>
-<a href="#skills">Skills</a>
-<a href="#services">Services</a>
-<a href="#">Projects</a>
-<a href="#contact">Contact Us</a>
+<!-- <div class="logo">md zillani&lt;/&gt;</div> -->
+<nav class="navbar">
+
+    <div class="logo">
+        <h2>MD ZILLANI</h2>
+    </div>
+
+    <ul class="nav-links">
+
+        <li><a href="#home" class="active">Home</a></li>
+
+        <li><a href="#skills">Skills</a></li>
+
+        <li><a href="#services">Services</a></li>
+
+        <li><a href="#projects">Projects</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+    <a href="./images/zillani resume.pdf" class="nav-btn">
+        Resume
+    </a>
+
 </nav>
 </header>
+<!-- ================= HERO SECTION ================= -->
+
 <section class="hero">
-<div class="left">
-<h1>Hi, I'm <span>md zillani</span></h1>
-<h2>Frontend Developer</h2>
-<p>Crafting modern, responsive and user-friendly websites.</p>
-<a class="btn" href="./images/zillani resume.pdf">Download Resume</a>
+
+    <!-- Background Blur -->
+
+    <div class="blur blur-1"></div>
+    <div class="blur blur-2"></div>
+
+    <!-- Left -->
+
+    <div class="left">
+
+        <span class="hero-tag">
+            👋 Available For Freelance
+        </span>
+
+        <h1>
+
+            Building
+            <span>Modern</span>
+
+            Websites
+
+            That Inspire.
+
+        </h1>
+
+        <h2>
+
+            Frontend Developer &
+            UI Designer
+
+        </h2>
+
+        <p>
+
+            I design and develop modern, responsive and
+            high-performance websites with premium UI,
+            smooth animations and great user experience.
+
+        </p>
+
+        <div class="hero-btns">
+
+            <a href="./images/zillani resume.pdf" class="btn">
+
+                Download Resume
+
+            </a>
+
+            <a href="#contact" class="btn-outline">
+
+                Hire Me
+
+            </a>
+
+        </div>
+
+        <div class="hero-info">
+
+            <div class="info-box">
+
+                <h3>10+</h3>
+
+                <span>Projects</span>
+
+            </div>
+
+            <div class="info-box">
+
+                <h3>100%</h3>
+
+                <span>Responsive</span>
+
+            </div>
+
+            <div class="info-box">
+
+                <h3>24/7</h3>
+
+                <span>Support</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Right -->
+
+    <div class="right">
+
+        <div class="glow-ring">
+
+            <div class="glow">
+
+                <img src="images/profile.png" alt="Profile">
+
+            </div>
+
+        </div>
+
+        <!-- Floating Card -->
+
+        <div class="floating-card card-1">
+
+            💻 Frontend Developer
+
+        </div>
+
+    <span class="status-dot"></span>
+
+    <div>
+
+        <h4>Available For Freelance</h4>
+
+        <p>Let's Build Something Amazing</p>
+
+    </div>
+
 </div>
-<div class="right">
-<div class="glow">
-<img src="images/profile.png" alt="profile">
-</div>
-</div>
+
+    </div>
+
 </section>
+
+<!-- Scroll -->
+
+<div class="scroll-down">
+
+    <span></span>
+
+</div>
 
 <!-- next page.......... -->
 
@@ -386,5 +525,17 @@ overlay.classList.remove("active");
 
 </script>
 
+
+<script>
+
+window.addEventListener("scroll",()=>{
+
+const navbar=document.querySelector(".navbar");
+
+navbar.classList.toggle("scrolled",window.scrollY>30);
+
+});
+
+</script>
 </body>
 </html>
