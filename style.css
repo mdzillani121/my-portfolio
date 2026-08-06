@@ -336,6 +336,7 @@ nav{
 
     background:linear-gradient(90deg,#7C3AED,#EC4899);
     -webkit-background-clip:text;
+    background-clip:text;
     color:transparent;
 
 }
