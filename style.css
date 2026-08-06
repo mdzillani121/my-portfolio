@@ -1557,7 +1557,7 @@ left:-55px;
     margin-bottom:0;
     padding-bottom:0;
     width:100%;
-    min-height:100vh;
+    min-height:auto;
     background:#111;
     color:#fff;
     padding:80px 8%;
@@ -1855,17 +1855,7 @@ left:-55px;
     width:100%;
 }
 
-[class^="skill-"]{
-    margin-left:80px !important;
-    margin-bottom:0 !important;
-    font-size:20px;
-}
 
-[class^="descr-"]{
-    margin-left:80px !important;
-    margin-top:30px !important;
-    font-size:14px;
-}
 
 .service{
     padding:60px 15px;
@@ -2036,10 +2026,6 @@ left:-55px;
 }
 
 
-/*=========================
- GOOGLE FONT
-=========================*/
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
 
 *{
@@ -2068,7 +2054,8 @@ font-family:'Poppins',sans-serif;
 =========================*/
 
 .footer{
-
+margin-top: 0%;
+padding-top: 0%;
 position:relative;
 width:100%;
 margin-top:0;
@@ -2930,26 +2917,21 @@ html{
 }
 
 .skill-card{
-    width:100%;
     display:flex;
     align-items:center;
-    gap:15px;
+    gap:18px;
+    width:100%;
     padding:18px;
-    border-radius:16px;
+    margin:0;
+}
+
+.skill-info{
+    margin-left:0;
 }
 
 .skill-card img{
-    width:48px;
-    height:48px;
-}
-
-.skill-info h3{
-    font-size:18px;
-}
-
-.skill-info p{
-    font-size:14px;
-    line-height:1.5;
+    width:50px;
+    height:50px;
 }
 
 }
@@ -2990,4 +2972,26 @@ html{
     font-size:13px;
 }
 
+}
+
+.contact + .footer{
+    margin-top:0 !important;
+}
+
+
+.contact{
+    margin-bottom:0 !important;
+    padding-bottom:0 !important;
+}
+
+.contact-container{
+    margin-bottom:0 !important;
+}
+
+.footer{
+    margin-top:0 !important;
+}
+
+.footer-line{
+    margin-top:0 !important;
 }
