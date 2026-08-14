@@ -28,9 +28,7 @@ body{
 
 }
 
-/*==========================================
-          PREMIUM NAVBAR
-==========================================*/
+/* ----- premium navbar------- */
 
 .navbar{
 
@@ -158,9 +156,7 @@ body{
 
 }
 
-/* ==========================
-        Tablet
-========================== */
+/* ----- tablet ----- */
 
 @media(max-width:992px){
 
@@ -190,9 +186,7 @@ body{
 
 }
 
-/* ==========================
-        Mobile
-========================== */
+/* ------mobile------ */
 
 @media(max-width:768px){
 
@@ -253,9 +247,7 @@ nav{
     justify-content:center;
 }
 
-/* ==================================================
-                 HERO SECTION
-================================================== */
+/* hero */
 
 .hero{
     position:relative;
@@ -481,9 +473,7 @@ nav{
 
 }
 
-/* ==================================================
-            FLOATING CARDS
-================================================== */
+/* ======= floating cards======== */
 
 .floating-card{
 
@@ -571,9 +561,7 @@ left:-55px;
 
 }
 
-/* ==================================================
-            GLOW RING
-================================================== */
+/* glow */
 
 .glow-ring{
     width:340px;
@@ -608,9 +596,7 @@ left:-55px;
 
 }
 
-/* ==================================================
-            SCROLL INDICATOR
-================================================== */
+/* ----- scroll indicator----- */
 
 .scroll-down{
 
@@ -637,9 +623,6 @@ left:-55px;
 
 }
 
-/* ==================================================
-            BUTTON EFFECT
-================================================== */
 
 .btn{
 
@@ -668,9 +651,7 @@ left:-55px;
 
 }
 
-/* ==================================================
-            HERO ANIMATION
-================================================== */
+
 
 .left{
 
@@ -684,9 +665,6 @@ left:-55px;
 
 }
 
-/* ==================================================
-            KEYFRAMES
-================================================== */
 
 @keyframes float{
 
@@ -794,9 +772,7 @@ left:-55px;
 
 }
 
-/* ==================================================
-            RESPONSIVE
-================================================== */
+/* ---- responsive ------- */
 
 @media(max-width:992px){
 
@@ -1006,9 +982,7 @@ left:-55px;
 
 /* next page */
 
-/* ===========================
-        SKILLS SECTION
-=========================== */
+/* ----- skill section ------- */
 
 .skill{
     width:100%;
@@ -1140,22 +1114,18 @@ left:-55px;
 
 }
 
-/* ==========================
-        TABLET
-========================== */
+/* ---- tablet ------- */
 
 @media(max-width:992px){
 
 .skill{
 
     padding:70px 25px;
-
 }
 
 .skill-container{
 
     grid-template-columns:repeat(2,1fr);
-
     gap:18px;
 
 }
@@ -1168,28 +1138,23 @@ left:-55px;
 
 }
 
-/* ==========================
-        MOBILE
-========================== */
+/* ---- mobile ------- */
 
 @media(max-width:768px){
 
 .skill{
 
     padding:60px 15px;
-
 }
 
 .heading{
 
     font-size:30px;
-
 }
 
 .para{
 
     font-size:15px;
-
 }
 
 .button-container{
@@ -1227,7 +1192,6 @@ left:-55px;
 }
 
 .skill-info h3{
-
     font-size:19px;
 
 }
@@ -1240,9 +1204,7 @@ left:-55px;
 
 }
 
-/* ==========================
-      SMALL MOBILE
-========================== */
+/* ---- small mobile ------- */
 
 @media(max-width:480px){
 
@@ -1277,9 +1239,7 @@ left:-55px;
 /* next-----page */
 
 
-/* ===========================
-        SERVICES SECTION
-=========================== */
+/* ----service section----- */
 
 .service{
     width:100%;
@@ -1419,9 +1379,7 @@ left:-55px;
 
 }
 
-/* ===========================
-        TABLET
-=========================== */
+/* ---- tablet ----- */
 
 @media(max-width:992px){
 
@@ -1445,9 +1403,7 @@ left:-55px;
 
 }
 
-/* ===========================
-        MOBILE
-=========================== */
+/* ---- mobile ------- */
 
 @media(max-width:768px){
 
@@ -1801,9 +1757,6 @@ left:-55px;
 }
 
 
-/* =========================================================
-   RESPONSIVE PATCH (Skills + Services only)
-   ========================================================= */
 
 @media (max-width:992px){
 
@@ -1895,9 +1848,7 @@ left:-55px;
 }
 
 
-/*==========================================
-            PREMIUM HOVER MENU
-===========================================*/
+/* ------ hover menu-------- */
 
 .menu{
 
@@ -2073,9 +2024,7 @@ overflow:hidden;
 
 }
 
-/*=========================
- TOP GLOW LINE
-=========================*/
+/* ==== top glow line====== */
 
 .footer-line{
 
@@ -2118,9 +2067,7 @@ background-position:300%;
 
 }
 
-/*=========================
- CONTAINER
-=========================*/
+/* ---container---- */
 
 .footer-container{
 
@@ -2137,9 +2084,7 @@ gap:45px;
 
 }
 
-/*=========================
- GLASS BOX
-=========================*/
+/* -----glass box ---- */
 
 .footer-box{
 
@@ -2179,9 +2124,7 @@ color:var(--blue);
 
 }
 
-/*=========================
- ABOUT
-=========================*/
+/* ==== about==== */
 
 .about p{
 
@@ -2192,9 +2135,7 @@ margin-bottom:28px;
 
 }
 
-/*=========================
- CONTACT
-=========================*/
+/*  ------ contac ======= */
 
 .footer-contact{
 
@@ -2426,9 +2367,7 @@ BUTTON
     transform: translateX(6px);
 }
 
-/*=========================
-FOOTER BOTTOM
-=========================*/
+/* ---- fotter button ------- */
 
 .footer-bottom {
     margin-top: 70px;
@@ -2657,9 +2596,7 @@ RESPONSIVE
 
 }
 
-/*=========================
-FADE ANIMATION
-=========================*/
+/* fade animation */
 
 .footer-box {
     animation: fadeUp .8s ease forwards;
@@ -2691,9 +2628,7 @@ FADE ANIMATION
 
 }
 
-/*=========================
-SMOOTH HOVER
-=========================*/
+/*SMOOTH HOVER*/
 
 .footer-box,
 .social-icons a,
@@ -2708,7 +2643,7 @@ html {
 }
 
 
-/*========== MENU BUTTON ==========*/
+/* ------- menu button----------- */
 
 .menu-btn{
 
@@ -2739,33 +2674,19 @@ html {
 .sidebar{
 
 position:fixed;
-
 top:0;
-
 right:-320px;
-
 width:300px;
-
 height:100vh;
-
 background:rgba(255,255,255,.15);
-
 backdrop-filter:blur(35px);
-
 -webkit-backdrop-filter:blur(35px);
-
 border-left:1px solid rgba(255,255,255,.2);
-
 display:flex;
-
 flex-direction:column;
-
 padding:90px 30px;
-
 gap:20px;
-
 transition:.45s;
-
 z-index:99999;
 
 }
@@ -2779,27 +2700,18 @@ right:0;
 .sidebar a{
 
 text-decoration:none;
-
 color:#222;
-
 font-size:20px;
-
 font-weight:500;
-
 padding:15px;
-
 border-radius:12px;
-
 transition:.3s;
 
 }
 
 .sidebar a:hover{
-
 background:rgba(124,58,237,.12);
-
 padding-left:25px;
-
 color:#7C3AED;
 
 }
@@ -2807,15 +2719,10 @@ color:#7C3AED;
 .close-btn{
 
 position:absolute;
-
 top:25px;
-
 right:25px;
-
 font-size:30px;
-
 cursor:pointer;
-
 color:#7C3AED;
 
 }
@@ -2823,27 +2730,18 @@ color:#7C3AED;
 .overlay{
 
 position:fixed;
-
 inset:0;
-
 background:rgba(0,0,0,.4);
-
 backdrop-filter:blur(8px);
-
 opacity:0;
-
 visibility:hidden;
-
 transition:.3s;
-
 z-index:99998;
 
 }
 
 .overlay.active{
-
 opacity:1;
-
 visibility:visible;
 
 }
@@ -2851,7 +2749,6 @@ visibility:visible;
 @media(max-width:768px){
 
 .menu-btn{
-
 display:flex;
 
 }
@@ -2872,9 +2769,7 @@ html{
     transform: translateY(0);
 }
 
-/* ===========================
-   FINAL MOBILE FIX - TECH SKILLS
-=========================== */
+
 
 @media (max-width:768px){
 
@@ -2996,5 +2891,3 @@ html{
 .footer-line{
     margin-top:0 !important;
 }
-
-/* ========website done======== */
